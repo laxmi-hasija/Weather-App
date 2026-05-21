@@ -1,0 +1,29 @@
+.infobox{
+  text-align: center;
+}
+.CardInfo {
+  display : flex;
+  justify-content: center;
+  background-color: #0F172A !important;
+   
+
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.Card.css-1i3faf7-MuiPaper-root-MuiCard-root{
+  box-shadow:  0 4px 20px rgba(91, 124, 250, 0.15);
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.Card{
+  box-shadow:  0 4px 20px rgba(91, 124, 250, 0.15);
+  animation: fadeIn 0.5s ease-in-out;
+
+}

@@ -1,0 +1,15 @@
+.SearchBox{
+  text-align: center;
+  margin:25px;
+}
+.MuiInputLabel-root {
+  color: #B8C1EC !important;
+}
+
+.MuiInputLabel-root.Mui-focused {
+  color: #5B7CFA !important;
+}
+.MuiOutlinedInput-root {
+  background-color: #EEF2FF;
+  border-radius: 10px;
+}
